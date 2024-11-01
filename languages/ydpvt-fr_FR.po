@@ -1,0 +1,91 @@
+# YD PROFILE VISITOR TRACKER TEXT.
+# Copyright (C) 2011 yann.com
+# This file is distributed under the same license as the YD Profile Visitor Tracker package.
+# FIRST AUTHOR <yann@abc.fr>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: YD Profile Visitor Tracker Text\n"
+"POT-Creation-Date: 2011-03-23 18:03+0000\n"
+"PO-Revision-Date: 2011-03-28 11:22+0100\n"
+"Last-Translator: Yann Dubois <yann@abc.fr>\n"
+"Language-Team: Y.Dubois <yann@abc.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: yd-widget-framework.inc.php:574
+msgid "Main options"
+msgstr "Options principales"
+
+#: yd-profile-visitor-tracker.php:48
+msgid "YD Profile Visitor Tracker Configuration"
+msgstr "Configuration YD Profile Visitor Tracker"
+
+#: yd-profile-visitor-tracker.php:100
+msgid "Auto track visitors on all profile pages"
+msgstr "Trace automatique des visiteurs sur pages profil"
+
+#: yd-profile-visitor-tracker.php:101
+msgid "Default tracking attributes"
+msgstr "Attributs de traçabilité par défaut"
+
+#: yd-profile-visitor-tracker.php:102
+msgid "Add visitors tracking page to member menu"
+msgstr "Ajouter le récapitulatif des visites au menu"
+
+#: yd-profile-visitor-tracker.php:114
+msgid "Welcome to the YD Profile Visitor Tracker settings page. If you do not use autotracking, here is the template tag: &lt;?php if( is_callable( array( 'pvtPlugin', 'track' ) ) ) pvtPlugin::track( [array( 'optcookie'=>'whatever' )] ); ?&gt;. <a href='http://wordpress.org/extend/plugins/yd-profile-visitor-tracker/installation/'>See installation instructions for setup and usage documentation</a>."
+msgstr "Bienvenue sur la page de réglages de YD Profile Visitor Tracker. Si vous n'utilisez pas l'option de traçabilité automatique, voici la fonction de gabarit à utiliser&nbsp;: &lt;?php if( is_callable( array( 'pvtPlugin', 'track' ) ) ) pvtPlugin::track( [array( 'optcookie'=>'truc' )] ); ?&gt;. <a href='http://wordpress.org/extend/plugins/yd-profile-visitor-tracker/installation/'>Voir instructions d'installation</a>."
+
+#: pvt.inc.php:37
+msgid "Visitors"
+msgstr "Visiteurs"
+
+#: pvt.inc.php:55
+msgid "j F Y"
+msgstr "j/m/Y"
+
+#: pvt.inc.php:137
+msgid "Visitor"
+msgstr "Visiteur"
+
+#: pvt.inc.php:139
+msgid "Last visit date"
+msgstr "Dernière visite"
+
+#: pvt.inc.php:141
+msgid "Visit count"
+msgstr "Nb. visites"
+
+#: pvt.inc.php:143
+msgid "Last visit PV"
+msgstr "PV dernière visite"
+
+#: pvt.inc.php:145
+msgid "Total visitor PV"
+msgstr "Total PV visiteur"
+
+#: pvt.inc.php:147
+msgid "Optional data"
+msgstr "Optionnel"
+
+#: pvt.inc.php:13
+msgid "Name"
+msgstr "Nom"
+
+#: pvt.inc.php:14
+msgid "First name"
+msgstr "Prénom"
+
+#: pvt.inc.php:187
+msgid "Last visit on:"
+msgstr "Dernière visite&nbsp;: le"
+
+#: pvt.inc.php:191
+msgid "Total visit count:"
+msgstr "Nombre de visites&nbsp;:"
+
